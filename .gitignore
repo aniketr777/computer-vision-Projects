@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PyInstaller build
+dist/
+build/
+*.spec
+
+# Logs and dumps
+*.log
+
+# Tkinter related (sometimes stores temp)
+*.tk*
+
+# IDE specific
+.idea/
+*.swp
+*.swo
+
+# YOLO or other model-related cache files
+runs/
+weights/
+*.pt
+*.onnx
+
+# Media or large files (optional)
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+
+# Optional: if using Ultralytics YOLO local config/cache
+ultralytics/
+
+# Ignore secrets or tokens (just in case)
+.env
